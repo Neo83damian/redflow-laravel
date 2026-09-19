@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * NOTE: This file is intentionally separate from public/css/app-legacy.css.
+ * The existing REDFLOW design (all the styling you already have) is loaded
+ * on its own via a plain <link> tag in resources/views/entry.blade.php and
+ * needs no build step at all — it works whether or not you ever run
+ * `npm install && npm run build`.
+ *
+ * This Tailwind file only matters if/when you start writing NEW markup
+ * using Tailwind utility classes (e.g. for a page you add later). It does
+ * not replace or interfere with any of the existing CSS.
+ */
